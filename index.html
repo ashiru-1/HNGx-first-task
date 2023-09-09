@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo">D.Ashiru</a>
+    </header>
+
+    <section class="profile">
+        <div class="profile-image" data-testid="slackDisplayImage">
+            <img src="assets/profilepic.png" alt="David Ashiru">
+        </div>
+        <div class="home-content">
+            <h1>Hi, I am <span data-testid="slackUserName">DAVID ASHIRU</span></h1>
+            <h3 data-testid="myTrack">Track : Frontend</h3>
+            <p>I am a frontend developer looking to improve my skills. I am currently enrollled in a program at HNGx and this is my first project.</p>
+
+            <div class="icons">
+                <a href="https://hngix.slack.com/team/U05R5TXCTPX"><i class='bx bxl-slack'></i></a>
+                <a href="https://github.com/ashiru-1"><i class='bx bxl-github'></i></a>
+                <a href="https://twitter.com/console_cypher"><i class='bx bxl-twitter'></i></a>
+                <a href="https://davidadesola007@gmail.com"><i class='bx bxl-gmail' ></i></a>
+            </div>
+
+            <div class="day">
+                <span><i class='bx bxs-calendar'></i></span>
+                <span id="dayOfWeek"  data-testid="currentDayOfTheWeek"></span>
+                <span id="date"  data-testid="currentDayOfTheWeek"></span>
+              </div>
+
+              <div class="time">
+                <span>UTC Time Milliseconds:</span>
+                <span id="currentTimeInMilliseconds" data-testid="currentUTCTime"></span>
+              </div>
+                <a href="https://github.com/ashiru-1/" data-testid="githubURL" class="srccode">Get Source Code</a>
+        </div>
+    </section>
+   
+
+
+
+</body>
+    <script src="script.js"></script>
+</html>
